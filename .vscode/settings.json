@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+        "./themes/blue.css",
+        "/Users/xxxx/yyy/xxx.css"
+    ]
+}
