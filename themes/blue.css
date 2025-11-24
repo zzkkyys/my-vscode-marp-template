@@ -211,6 +211,15 @@ table tbody tr {
     border: none;
 }
 
+/* 斑马纹样式 - 隔行变色 */
+table tbody tr:nth-child(even) {
+    background-color: #efeded;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
 
 /* Footnotes container */
 .footnotes {

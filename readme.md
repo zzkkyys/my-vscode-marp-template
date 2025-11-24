@@ -1,7 +1,10 @@
 
 ## 1. 配置VSCode
 
-使用vscode打开项目文件夹后，需要在`.vscode`文件夹下的`settings.json`中，添加themes文件路径：
+首先，确保你已经安装了 [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) 插件。
+
+
+其次，使用vscode打开项目文件夹后，需要在`.vscode`文件夹下的`settings.json`中，添加themes文件路径：
 
 ```bash
 {
@@ -17,6 +20,10 @@
 
 
 ## 2. 使用
+
+> 打开`demo.md`文件并预览，来查看示例。
+
+![](https://img.ayyyyy.top/2025/11/1f8d963dd78675006458e2d57a96128f.png)
 
 
 在vscode中新建一个`md`文件，然后在md最上面的frontmatter中添加：
@@ -39,6 +46,11 @@ paginate: true
 - `header: 'My Presentation'`：在每页幻灯片顶部添加页眉。
 - `footer: '© 2025 My Company'`：在每页幻灯片底部添加页脚。
 
+
+其他语法，见marp官方文档[Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)和[Introduction](https://marpit.marp.app/)。
+
+
+
 ## 3. 幻灯片分页
 
 在 Marp 中，使用 `---` (三个或更多的连字符) 来分隔每一页幻灯片。
@@ -58,7 +70,7 @@ paginate: true
 ## 4. 导出幻灯片
 
 
-![](https://ayyyyy.sbs/2025/11/94cd7d67bea2ba50a6f5dccca7ab1bbb.png)
+![](https://img.ayyyyy.top/2025/11/94cd7d67bea2ba50a6f5dccca7ab1bbb.png)
 
 
 
@@ -70,3 +82,9 @@ paginate: true
 - **JPEG** (仅导出第一页)
 
 选择你需要的格式即可完成导出。
+
+
+
+## 致谢
+
+参考：https://github.com/rnd195/my-marp-themes、https://github.com/rnd195/marp-community-themes
